@@ -2,7 +2,7 @@
   "name": "sml-language-support",
   "main": "lib/sml-language-support",
   "version": "0.2.0",
-  "description": "Language Support for Standard ML",
+  "description": "Language Support for Standard ML. Forked from simonspies/sml-language-support",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "sml-language-support:run"
@@ -13,7 +13,7 @@
   "activationHooks": [
     "sml-language-support:grammar-used"
   ],
-  "repository": "https://github.com/SimonSpies/sml-language-support.git",
+  "repository": "https://github.com/ictrobot/sml-language-support.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
