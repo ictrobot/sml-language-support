@@ -19,10 +19,17 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "configSchema": {
-    "mosml": {
+    "mlpath": {
+      "title": "ML Run Command Line",
       "type": "string",
-      "default": "mosml",
-      "description": "The place where your MoscowML interpreter lives."
+      "default": "poly --use $SRCFILE",
+      "description": "Command to run ML scripts. $SRCFILE is replaced by the path to the source file."
+    },
+	"mlstdin": {
+      "title": "ML Run Standard Input",
+      "type": "boolean",
+      "default": "false",
+      "description": "If true the script's contents will be written to the ML command's standard input"
     }
   },
   "providedServices": {},
