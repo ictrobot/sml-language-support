@@ -4,13 +4,8 @@
       "label": "Build",
       "submenu": [
         {
-          "label": "SML",
-          "submenu": [
-            {
-              "label": "Run...",
-              "command": "sml-language-support:run"
-            }
-          ]
+          "label": "Run ML",
+          "command": "sml-language-support:run"
         }
       ]
     }
