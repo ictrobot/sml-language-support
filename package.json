@@ -22,7 +22,7 @@
     "mlpath": {
       "title": "ML Run Command Line",
       "type": "string",
-      "default": "poly --use $SRCFILE",
+      "default": "poly -i --use \"$SRCFILE\"",
       "description": "Command to run ML scripts. $SRCFILE is replaced by the path to the source file."
     },
 	"mlstdin": {
